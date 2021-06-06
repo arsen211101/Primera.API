@@ -2,11 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Premiera.Services.ServiceInterfaces;
 using Primera.Models.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Threading.Tasks;
 
 namespace Primera.API.Controllers
 {
