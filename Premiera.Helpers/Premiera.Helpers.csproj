@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AutoMapper" Version="6.2.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Premiera.Domain\Premiera.Domain.csproj" />
+    <ProjectReference Include="..\Primera.Models\Primera.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Premiera.Domain\Premiera.Domain.csproj" />
+    <ProjectReference Include="..\Primera.Data\Premiera.Data.csproj" />
+  </ItemGroup>
+
+</Project>
